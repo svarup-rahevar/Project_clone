@@ -20,7 +20,22 @@ h4{
     right:50%;
     transform: translateX(50%);
 }
+.heading2::after{
+    position: absolute;
+    content: "";
+    width: 70px;
+    height: 3px;
+    background-color: black;
+    border-radius: 10px;
+    bottom: -10px;
+    right:50%;
+    transform: translateX(50%);
+}
+
 .heading{
+    position: relative;
+}
+.heading2{
     position: relative;
 }
 .card p{
@@ -119,12 +134,14 @@ h4{
 .card button:hover span{
   background-color: transparent; 
     color:black;
-
-
 }
 @media screen and (max-width:720px){
     .carditems .card{
        max-width:200px;
+    }
+    .heading{
+        position: relative;
+        margin-top: -120px !important;
     }
 }
 *{
