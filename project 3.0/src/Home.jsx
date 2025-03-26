@@ -58,7 +58,7 @@ function Home() {
         </button>
       </div>
 
-      <h4 className='heading pt-4 pt-md-4 mt-0 mt-md-5'>Shop our Best Sellers</h4>
+      <h4 className='heading pt-4 pt-md-4 mt-5 mt-md-5'>Shop our Best Sellers</h4>
       <div className="carditems">
         {products2.map((product) => (
           <div key={product.id}>
@@ -76,7 +76,7 @@ function Home() {
         ))}
       </div>
 
-      <h4 className='heading'>Newly Launched</h4>
+      <h4 className='heading2'>Newly Launched</h4>
 
       <div className="carditems2">
         {products.map((product) => (
@@ -95,7 +95,7 @@ function Home() {
         ))}
       </div>
 
-      <h4 className='heading'>Recent Blogs</h4>
+      <h4 className='heading2'>Recent Blogs</h4>
       <h4 className='m-3'>Follow Us On Instagram @Pintola.in</h4>
       <div className='imgs'>
         <ImgVid image={"/images/img1.jpg"} />
